@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header{
+
+  height: 96px;
+  background-color: grey;
+
+}
+h2{
+    padding-left: 32px;
+    padding-top: 32px;
+    color: white;
+    text-align: left;
+}
+
+h3{
+  padding-left: 38px;
+  padding-top: 32px;
+  color: black;
+  text-align: left;
+
+}
+
+.form-part{
+  width:912px;
+  padding-left: 50px;
+}
+
+.table-part{
+  width:912px;
+  padding-left: 50px;
+}
