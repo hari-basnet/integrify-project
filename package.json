@@ -7,6 +7,7 @@
     "gh-pages": "^1.1.0",
     "lodash": "^4.17.5",
     "material-ui": "^0.20.0",
+    "npm-install-peers": "^1.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
@@ -17,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
