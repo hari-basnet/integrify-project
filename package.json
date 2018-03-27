@@ -2,15 +2,23 @@
   "name": "nord-software",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://haribasnet0.github.io/my-project/nord-software",
+  "devDependencies":{
+    "gh-pages":"ˆ1.0.13",
+    "react-scripts": "1.0.13"
+  }
   "dependencies": {
     "lodash": "^4.17.5",
     "material-ui": "^0.20.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
-    "react-tap-event-plugin": "^3.0.2"
+    "react-tap-event-plugin": "^3.0.2",
+
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
