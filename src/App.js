@@ -15,7 +15,7 @@ const invertDirection = {
 class App extends Component {
 
   state = {
-    showCheckboxes: false,
+    
     data: [
       {
       fullName: "Bijay Bania",

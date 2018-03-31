@@ -20,5 +20,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "surge": "^0.20.1"
   }
 }
